@@ -1,0 +1,25 @@
+***client 사용법***
+0. make
+	make client
+1. 프로그램 실행 
+	./client (server_ip) (port_number)
+2. 접속 이름 설정
+	Enter your name:(이름)
+		* 서버이름과 공백은 거절됨
+3. 채팅 방법
+	작성하고자 하는 내용 입력 후 엔터
+4. 읽기전용 명령 실행
+	;exe;(대상이름) (명령 인자...)
+5. 종료
+	signal_interrupt 으로 종료
+
+***server 사용법***
+0.make
+	make server
+1. 프로그램 실행
+	./server (port_number)
+2. 종료
+	signal_interrupt 으로 종료
+
+이 프로그램은 Ubuntu Linux 에서 작성된 프로그램 입니다.
+작성자 : 경북대학교 임재환, 이한성, 이덕희
